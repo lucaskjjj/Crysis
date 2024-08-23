@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Terror</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Galeria de Terror</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#imagens">Imagens</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Bem-vindo à Galeria de Terror</h2>
+            <p>Explore uma coleção de imagens assustadoras que vão arrepiar você.</p>
+        </section>
+
+        <section id="imagens">
+            <h2>Imagens de Terror</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="img/terror1.jpg" alt="Imagem de Terror 1">
+                    <figcaption>O que está escondido na escuridão?</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/terror2.jpg" alt="Imagem de Terror 2">
+                    <figcaption>A sombra que você não pode ignorar.</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/terror3.jpg" alt="Imagem de Terror 3">
+                    <figcaption>Um rosto no espelho?</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Se você tiver alguma dúvida ou sugestão, entre em contato conosco.</p>
+            <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Galeria de Terror. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
